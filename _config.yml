@@ -1,3 +1,2 @@
-markdown: redcarpet
-baseurl: /Portfolio/
-exclude: ['README.me']
+baseurl: /Portfolio
+exclude: ['README.md']
