@@ -1,3 +1,3 @@
-baseurl: /Portfolio
+baseurl: /
 exclude: ['README.md']
 encoding: utf-8
