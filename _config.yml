@@ -1,2 +1,4 @@
+markdown: redcarpet
 baseurl: /Portfolio
 exclude: ['README.md']
+encoding: utf-8

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-bg navbar-toggleable-md navbar-light bg-faded ">
+            <div class="row d-flex justify-content-between mr-4">
+                <a class="navbar-brand pl-5 nice-blue" href="">Deal-Lookup</a>
+                <div class="hidden-lg-up ">
+                    <button type="button" class="navbar-toggler p-0 mt-2" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+                    <span class="navbar-toggler-icon "></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-toggleable justify-content-end pr-lg-5" id="bs-navbar-collapse-1">
+                <div class="centerNavs">
+                    <ul class="nav navbar-nav collapsedNavs">
+                        <li class="nav-item navicon pl-2 pr-2 ">
+                            <a class="nav-link " href="{{siteurl.baseurl}}/index.html">
+                                <h5 class="">Home</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item navicon pl-2 pr-2 ">
+                            <a class="nav-link" href="{{site.baseurl}}/dashboard.html">
+                                <h5 class="">Dashboard</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item navicon pl-2 pr-2">
+                            <a class="nav-link" href="{{site.baseurl}}/single-asset.html">
+                                <h5 class="">Single Asset Example</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item navicon pl-2 pr-2">
+                            <a class="nav-link" href="{{siteurl.baseurl}}/faq.html">
+                                <h5 class="">FAQ</h5>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rightsNavs">
+                    <ul class="nav navbar-nav collapsedNavs">
+                        <li class="nav-item navicon pl-2 pr-2">
+                            <a id="sign-up-link" class="nav-link" href="{{site.baseurl}}/signup.html">
+                                <h5 class="nice-blue">Sign Up</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item navicon pl-2 pr-2">
+                            <a id="log-in-link" class="nav-link" href="{{site.baseurl}}/login.html">
+                                <h5 class="nice-blue">Sign In</h5>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--end navbar -->
+        {{content}}
+
+        <!-- footer -->
+        <footer class="darkBlueBG grey pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-3">
+                        <a href="#" class="grey h2Heading footerLogo">
+                        Deal-Lookup
+                        </a>
+                        <div class="pr-3">
+                            <p class="small">
+                                Deal-Lookup Information etc Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3">
+                        <ul class="footerList">
+                            <li><a class="footerLinks " href="base.html" >Home</a></li>
+                            <li><a class="footerLinks" href="#">Dashboard</a></li>
+                            <li><a class="footerLinks" href="#">Blog</a></li>
+                            <li><a class="footerLinks" href="faq.html">Questions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3">
+                        <ul class="footerList">
+                            <li><a class=" footerLinks" href="#">Contact</a></li>
+                            <li><a class=" footerLinks" href="#">Legal</a></li>
+                            <li><a class=" footerLinks" href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-3">
+                        <ul class="">
+                            <li class="d-flex flex-row grey">
+                                <a class="d-flex h2Heading footerIcons" href="#">
+                                <i class="fa fa-facebook-square " aria-hidden="true"></i>
+                                </a>
+                                <a class="d-flex h2Heading footerIcons" href="#">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                                <a class="d-flex h2Heading footerIcons" href="#">
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                                <a class="d-flex h2Heading footerIcons" href="#">
+                                <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="pb-0 mb-0 small">
+                                Deal-Lookup Information etc Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                                <a class="p-0 m-0 footerLinks" href="#">Learn More</a>
+                            </li>
+                            <li class="pb-0 mb-0">
+                                <a class="p-0 m-0 footerLinks " href="http://google.com/" title="Search Elsewere :-)">Go fetch!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--end footer -->
+    </body>
+    </html>
