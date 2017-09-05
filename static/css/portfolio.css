@@ -1,0 +1,16 @@
+/**{
+    border: 1px solid #000;
+}*/
+
+
+.marginTop {
+    margin-top: 5%;
+}
+
+.timeLeft {
+    display: table-cell!important;
+    vertical-align: bottom!important;
+}
+.timeLeft-P {
+    margin-left: 20%!important;
+}

@@ -1,0 +1,49 @@
+/**{
+border:1px solid red;
+}*/
+
+
+/*************
+    SignUp page
+*************/
+.signup-bg{
+    background: url(../img/city.jpg ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#signup_form .input-group .form-control {
+    width: 100%;
+}
+#signup_form .card-content{
+    position: relative;
+}
+.signup-bg .card{
+    border: 1px solid #5BC0DE;
+    border-radius: 5px;
+}
+.social .btn:hover{
+    background-color: #5BC0DE;
+}
+/*************
+    Login page
+*************/
+.login-bg{
+    background: url(../img/city.jpg ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.login-card{
+    padding-top: 2rem;
+}
+.login-bg .card{
+    border: 1px solid #5BC0DE;
+    border-radius: 5px;
+}
+#login-page .input-group .form-control {
+    width: 100%;
+}

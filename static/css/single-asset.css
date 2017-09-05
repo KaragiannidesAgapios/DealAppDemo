@@ -1,0 +1,238 @@
+/**{
+    border: 1px solid red;
+}*/
+
+
+/**************
+morris css styles
+*******************/
+.morris-hover {
+    position: absolute;
+    z-index: 1000
+}
+.morris-hover.morris-default-style {
+    border-radius: 10px;
+    padding: 6px;
+    color: #666;
+    background: rgba(255, 255, 255, 0.8);
+    border: solid 2px rgba(230, 230, 230, 0.8);
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center
+}
+.morris-hover.morris-default-style .morris-hover-row-label {
+    font-weight: bold;
+    margin: 0.25em 0
+}
+.morris-hover.morris-default-style .morris-hover-point {
+    white-space: nowrap;
+    margin: 0.1em 0
+}
+
+/**************
+end morris css styles
+*******************/
+
+#area-example{
+    height: 240px;
+}
+#area-example svg path{
+    stroke: transparent;
+}
+#donut-example{
+    height: 100%;
+}
+#donut-example1,
+#donut-example svg text {
+    font-family: "Roboto"!important;
+    font-weight: 300!important;
+}
+
+#fixed-icon-column{
+    background-color: #000;
+    justify-content: space-between;
+}
+
+#fixed-icon-column i{
+    color: grey;
+    padding: 10px;
+    margin: 5px;
+}
+#fixed-icon-column i:hover{
+    color: #fff;
+}
+
+/*summary*/
+
+
+
+
+/*end summary*/
+/* education*/
+
+
+#donut-example1{
+    height: 250px;
+    width: 100%;
+}
+/*end education*/
+
+/*endorsments2*/
+#line-example{
+    height: auto;
+    width: 100%;
+    left: -2.5%;
+}
+
+/*end endorsments2*/
+
+/*education expierience row*/
+.single-radio {
+    padding-bottom: 5px;
+}
+.single-radio label {
+    display: inline!important;
+}
+.single-radio p {
+    color: #000;
+}
+.single-radio .check{
+    background-color: #5e92f3!important;
+}
+.single-radio .circle{
+    border-color: #003c8f!important;
+}
+/*education expierience row*/
+/*endosements*/
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%)
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+}
+.carousel-item img{
+    padding:0 2px 0 2px;
+}
+.carousel-item{
+    height: 250px;
+}
+.carousel-inner {
+  border-radius: 15px;
+}
+
+/*end endosements*/
+/*financial analysis*/
+.minus-plus-input{
+    padding: 0;
+    margin: 0;
+}
+.minus-plus-input .input-group .form-control{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.transaction-cost-value input{
+    width: 50%;
+    border-bottom: 1px solid #000!important;
+}
+#single-table2 thead th,
+#single-table1 thead th{
+    border-right: 2px solid #F7F7F7;
+}
+#single-table2 thead th:last-of-type,
+#single-table1 thead th:last-of-type{
+    border-right: 0;
+}
+#single-table2 input,
+#single-table1 input{
+   text-align:center;
+}
+#single-table2 input::placeholder,
+#single-table1 input::placeholder {
+  color: #000;
+  font-size:1.1rem;
+}
+
+#single-table1 .form-group,
+#single-table2 .form-group {
+    margin: 0;
+    padding-bottom: 0;
+}
+#single-table1 .form-control,
+#single-table2 .form-control {
+    height: auto;
+}
+#single-table2 .input-group,
+#single-table1 .input-group {
+    display: flex;
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+.single-sidebox-icon{
+    font-size: 5rem;
+}
+.date-pick {
+    width: 40%!important;
+}
+/*end financial analysis*/
+
+/*Addition details*/
+.scrollbox {
+border: 1px solid #31B0D5;
+padding: 15px;
+height: 500px;
+overflow-y: scroll;
+}
+.scrollbox p {
+    margin: 10px;
+}
+/*end Addition details*/
+.button-span-text{
+    position: relative;
+    left: -20px;
+}
+.transaction-buttons button{
+    cursor: pointer;
+}
+.transaction-buttons a:hover{
+    text-decoration: none;
+}
+.communicate-icons i{
+    font-size: 2.3rem!important;
+}
+/*media*/
+@media only screen and (min-width: 992px){
+    #fixed-icon-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    #fixed-icon-column{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 767px){
+    #fixed-icon-column{
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+}

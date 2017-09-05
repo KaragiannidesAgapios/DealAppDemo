@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+        <div class="container-fluid signup-bg">
+            <div class="pt-5 ">
+                <div class="container ">
+                    <div class="row justify-content-center ">
+                        <div class="col-md-10 col-md-offset-1 pt-5">
+                            <div class="card card-signup">
+                                <h2 class="card-title header header-info text-center">Sign Up</h2>
+                                <div class="row justify-content-center pt-2 pb-5">
+                                    <div class="col-md-5 col-md-offset-1 d-flex flex-column justify-content-between pt-3 pb-3">
+                                        <div class="info info-horizontal p-0 d-flex flex-row">
+                                            <div class="green pr-2">
+                                                <i class="material-icons md-36">timeline</i>
+                                            </div>
+                                            <div class="description pt-1">
+                                                <h4 class="info-title m-0">This One!</h4>
+                                                <p class="description">
+                                                    Yes we can do this one.It's true!Yes we can do this one.It's true!Yes we can do this one.It's true!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal p-0 d-flex flex-row">
+                                            <div class="grey pr-2">
+                                                <i class="material-icons md-36">code</i>
+                                            </div>
+                                            <div class="description pt-1">
+                                                <h4 class="info-title m-0">And That One!</h4>
+                                                <p class="description">
+                                                    Yes we can do that one also!Yes we can do that one also!Yes we can do that one also!Yes we can do that one also!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="info info-horizontal p-0 d-flex flex-row">
+                                            <div class="nice-blue pr-2">
+                                                <i class="material-icons md-36">group</i>
+                                            </div>
+                                            <div class="description pt-2">
+                                                <h4 class="info-title m-0">Of Course We Can!</h4>
+                                                <p class="description">
+                                                    Yes we can do that one also!Yes we can do that one also!Yes we can do that one also!Yes we can do that one also!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 offset-md-1">
+                                        <div class="row ">
+                                            <div class="social text-center">
+                                                <button class="btn btn-just-icon btn-round btn-twitter">
+                                                <i class="fa fa-twitter"></i>
+                                                </button>
+                                                <button class="btn btn-just-icon btn-round btn-dribbble">
+                                                <i class="fa fa-dribbble"></i>
+                                                </button>
+                                                <button class="btn btn-just-icon btn-round btn-facebook">
+                                                <i class="fa fa-facebook"> </i>
+                                                </button>
+                                                <h5 class="em text-muted"> or be classical </h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10  pl-0">
+                                                <form class="signup " id="signup_form" method="post" action="/accounts/signup/">
+                                                    <div class="content">
+                                                        <input type="hidden" name="csrfmiddlewaretoken" value="kHRMgD9cpOpMzinCZ2BJnu5ecuskBd3QsxqpnUSTw1SPNLAuVVK262FNimBeJD6B">
+                                                        <div class="input-group d-flex flex-column">
+                                                            <div id="div_id_username" class="form-group is-empty p-0 mt-2">
+                                                                <label for="id_username" class="form-control-label  requiredField"><span class="asteriskField"></span> </label>
+                                                                <div class=""> <input autofocus="autofocus" class="textinput textInput form-control" id="id_username" maxlength="150" minlength="1" name="username" placeholder="Username" type="text" required=""> </div>
+                                                                <span class="material-input"></span>
+                                                            </div>
+                                                            <div id="div_id_email" class="form-group is-empty p-0  mt-1">
+                                                                <label for="id_email" class="form-control-label  requiredField"><span class="asteriskField"></span> </label>
+                                                                <div class=""> <input class="textinput textInput form-control" id="id_email" name="email" placeholder="E-mail address" type="email" required=""> </div>
+                                                                <span class="material-input"></span>
+                                                            </div>
+                                                            <div id="div_id_password1" class="form-group is-empty p-0   mt-1">
+                                                                <label for="id_password1" class="form-control-label  requiredField"><span class="asteriskField"></span> </label>
+                                                                <div class=""> <input class="textinput textInput form-control" id="id_password1" name="password1" placeholder="Password" type="password" required=""> </div>
+                                                                <span class="material-input"></span>
+                                                            </div>
+                                                            <div id="div_id_password2" class="form-group is-empty p-0  mt-1">
+                                                                <label for="id_password2" class="form-control-label  requiredField"> <span class="asteriskField"></span> </label>
+                                                                <div class=""> <input class="textinput textInput form-control" id="id_password2" name="password2" placeholder="Password (again)" type="password" required=""> </div>
+                                                                <span class="material-input"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="footer pt-4  ">
+                                                            <button class="btn btn-info btn-block m-0" type="submit">Sign Up</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                                <div class="content">
+                                                    <div class="input-group">
+                                                        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
