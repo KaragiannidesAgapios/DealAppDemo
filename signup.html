@@ -1,12 +1,11 @@
 ---
 layout: default
 ---
-
-        <div class="container-fluid signup-bg">
-            <div class="pt-5 ">
-                <div class="container ">
+        <div class="signup-bg container-fluid height100vh" >
+            <div class="header ">
+                <div class="container pt-4 mb-4 ">
                     <div class="row justify-content-center ">
-                        <div class="col-md-10 col-md-offset-1 pt-5">
+                        <div class="col-md-10 col-md-offset-1 pt-5 pb-5">
                             <div class="card card-signup">
                                 <h2 class="card-title header header-info text-center">Sign Up</h2>
                                 <div class="row justify-content-center pt-2 pb-5">
@@ -47,21 +46,23 @@ layout: default
                                     </div>
                                     <div class="col-md-5 offset-md-1">
                                         <div class="row ">
-                                            <div class="social text-center">
-                                                <button class="btn btn-just-icon btn-round btn-twitter">
-                                                <i class="fa fa-twitter"></i>
-                                                </button>
-                                                <button class="btn btn-just-icon btn-round btn-dribbble">
-                                                <i class="fa fa-dribbble"></i>
-                                                </button>
-                                                <button class="btn btn-just-icon btn-round btn-facebook">
-                                                <i class="fa fa-facebook"> </i>
-                                                </button>
-                                                <h5 class="em text-muted"> or be classical </h5>
+                                            <div class="col-10 offset-1">
+                                                <div class="social d-flex flex-row justify-content-around">
+                                                    <button class="btn btn-just-icon btn-round btn-twitter">
+                                                    <i class="fa fa-twitter"></i>
+                                                    </button>
+                                                    <button class="btn btn-just-icon btn-round btn-dribbble">
+                                                    <i class="fa fa-dribbble"></i>
+                                                    </button>
+                                                    <button class="btn btn-just-icon btn-round btn-facebook ">
+                                                    <i class="fa fa-facebook"> </i>
+                                                    </button>
+                                                </div>
+                                                <h5 class="em text-muted text-center"> or be classical </h5>
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-10  pl-0">
+                                            <div class="col-11 offset-1 ">
                                                 <form class="signup " id="signup_form" method="post" action="/accounts/signup/">
                                                     <div class="content">
                                                         <input type="hidden" name="csrfmiddlewaretoken" value="kHRMgD9cpOpMzinCZ2BJnu5ecuskBd3QsxqpnUSTw1SPNLAuVVK262FNimBeJD6B">
