@@ -56,7 +56,6 @@ end morris css styles
 #fixed-icon-column i{
     color: grey;
     padding: 10px;
-    margin: 5px;
 }
 #fixed-icon-column i:hover{
     color: #fff;
@@ -191,17 +190,17 @@ end morris css styles
 .scrollbox {
 border: 1px solid #31B0D5;
 padding: 15px;
-height: 500px;
+height: 350px;
 overflow-y: scroll;
 }
 .scrollbox p {
     margin: 10px;
 }
 /*end Addition details*/
-.button-span-text{
+/*.button-span-text{
     position: relative;
     left: -20px;
-}
+}*/
 .transaction-buttons button{
     cursor: pointer;
 }
@@ -211,6 +210,10 @@ overflow-y: scroll;
 .communicate-icons i{
     font-size: 2.3rem!important;
 }
+.communicate-stuff{
+    text-align: center;
+}
+
 /*media*/
 @media only screen and (min-width: 992px){
     #fixed-icon-column{
@@ -219,7 +222,17 @@ overflow-y: scroll;
         align-items: center;
         padding: 0;
     }
+    .seller-stuff{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .seller-stuff-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
+    }
 }
 @media only screen and (max-width: 991px){
     #fixed-icon-column{
@@ -228,11 +241,62 @@ overflow-y: scroll;
         align-items: center;
         justify-content: space-between;
     }
+    .seller-stuff{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .seller-stuff-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .communicate-stuff {
+        display: flex;
+        flex-direction: row;
+    }
+    .class-display table{
+        display: none;
+    }
 }
 @media only screen and (max-width: 767px){
     #fixed-icon-column{
         display: flex;
         flex-direction: row;
-        align-items: center
+        align-items: center;
+        justify-content: space-between;
     }
+    .day-change{
+        display: none;
+    }
+    .class-display table{
+        display: none;
+    }
+    .carousel-item{
+        height: 100px;
+    }
+    .seller-stuff{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .seller-stuff div{
+        padding-bottom: 20px;
+    }
+    .seller-stuff-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .seller-stuff-buttons div{
+        margin-bottom: 20px;
+    }
+    .communicate-stuff {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

@@ -6,9 +6,7 @@ border:1px solid red;
 /*************
     SignUp page
 *************/
-.height100vh{
-    height: 100vh;
-}
+
 .signup-bg{
     background: url(../img/city.jpg ) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -49,4 +47,10 @@ border:1px solid red;
 }
 #login-page .input-group .form-control {
     width: 100%;
+}
+
+@media (max-width: 767px){
+    .class-display div{
+        display: none!important;
+    }
 }

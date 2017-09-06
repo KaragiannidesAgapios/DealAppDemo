@@ -28,14 +28,14 @@
 .dashIconGrey {
     color: #c1cbce;
 }
-#div_id_asset_type select,
+/*#div_id_asset_type select,
 #div_id_asset_type_minor select {
     width: 130px!important;
     padding: 0!important;
     margin: 0!important;
     height: 38px!important;
 
-}
+}*/
 
 .selectpicker,
 .select2-selection,
@@ -124,4 +124,19 @@ table tr[data-href] {
 }
 .updatesList i {
     vertical-align: sub;
+}
+@media only screen and (min-width: 992px){
+    #AuctionForm div{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 991px){
+    #AuctionForm div{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 767px){
+    #AuctionForm div{
+        display: block;
+    }
 }
