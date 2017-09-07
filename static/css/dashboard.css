@@ -4,11 +4,11 @@
 
 /*searchCard*/
 .searchbuttons a:hover{
-    border-bottom: 3px solid #5BC0DE;
+    border-bottom: 2px solid #5BC0DE;
     margin: 0;
 }
 .searchbuttons a {
-    border-bottom: 3px solid #D0D0D0;
+    border-bottom: 2px solid #D0D0D0;
 }
 .searchbuttons a:active {
     -webkit-box-shadow: 0px 6px 10px -2px rgba(102,102,102,0.7);
@@ -37,33 +37,33 @@
 
 }*/
 
-.selectpicker,
+/*.selectpicker,
 .select2-selection,
 .select2-search{
     width: 80%!important;
     height: 38px!important;
     border-radius: 0!important;
 
-}
-.select2-dropdown {
+}*/
+/*.select2-dropdown {
     width: 80%!important;
     border-radius: 0!important;
-}
-.select2-container--default .select2-selection--single .select2-selection__arrow{
+}*/
+/*.select2-container--default .select2-selection--single .select2-selection__arrow{
     height: 40px !important;
     right: 70px!important;
-}
+}*/
 .searchformBorder{
     border: 2px solid #c1cbce;
 
 }
-.formButton {
+/*.formButton {
     border-radius: 0!important;
     text-transform: capitalize!important;
     padding: 10px 30px 11px 30px !important;
     line-height: 16px!important;
     margin-bottom: 7px!important;
-}
+}*/
 /*End searchCard*/
 .dashBoardheadings th{
     text-transform: capitalize;
@@ -126,17 +126,71 @@ table tr[data-href] {
     vertical-align: sub;
 }
 @media only screen and (min-width: 992px){
+    .searchbuttons-section{
+        display: inline;
+    }
     #AuctionForm div{
         display: inline-block;
+        vertical-align: middle;
     }
+    .dash-icons-section {
+        display: flex;
+        flex-direction: row;
+    }
+    #div_id_city .form-group{
+        height: 0;
+    }
+    /*.auction-form-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }*/
 }
 @media only screen and (max-width: 991px){
-    #AuctionForm div{
-        display: inline-block;
+    .auction-form-section {
+        display: block;
+        align-self: center;
     }
+    .dash-icons-section {
+        display: flex;
+        flex-direction: row;
+}
+.formButton {
+    padding-bottom: 10px;
+}
+.searchbuttons-sections{
+    display: inline;
+    margin: 0 auto;
 }
 @media only screen and (max-width: 767px){
+    .searchbuttons-section div {
+        text-align: center;
+    }
+    .searchbuttons button{
+        font-size: 0.7rem;
+        font-weight: 400;
+
+    }
+    .searchbuttons-section i {
+        display: none;
+    }
     #AuctionForm div{
-        display: block;
+        margin: 10px auto!important;
+    }
+
+    .dash-icons-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .dash-icons-section-div{
+        align-self: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        border: 1px solid #5382be;
+        border-radius: 10px;
+    }
+    .dashIcon {
+        padding: 10px;
     }
 }

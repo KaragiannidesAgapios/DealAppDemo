@@ -1,5 +1,7 @@
 .select2-container {
-    min-width: 20em;
+    min-width: 10em;
+    padding: 0!important;
+    margin: 0!important;
 }
 
 ul li.select2-selection__choice,

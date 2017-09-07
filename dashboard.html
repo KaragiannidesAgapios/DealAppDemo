@@ -1,47 +1,46 @@
 ---
 layout: default
 ---
-            <div class="container-fluid">
+            <div class="container-fluid bgWhite">
             <div class="row">
-                <div class="col-lg-9 col-md-9 bgWhite">
-                    <div class="pt-5  mb-5 ">
-                        <div class="row p-0 m-0 d-flex inline-flex">
-                            <div class="col-md-4 col-6 p-0 m-0 searchbuttons ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="pt-5 pb-5 ">
+                        <div class="row p-0 m-0 searchbuttons-section">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-6 searchbuttons">
                                 <a href="/search/realestate/" class="p-2">
-                                <button class=" btn btn-simple p-0 m-0 "><i class="material-icons pull-left">business_center</i> <span class="pull-left pl-5">Commercial Assets</span></button>
+                                <button class=" btn btn-simple p-0 m-0 "><i class="material-icons pull-left pr-3">business_center</i> <span class="pull-left ">Commercial Assets</span></button>
                                 </a>
                             </div>
-                            <div class="col-md-4 col-6 p-0 m-0 searchbuttons">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-6 searchbuttons ">
                                 <a href="/search/auction/" class="p-2">
-                                <button class=" btn btn-simple  p-0 m-0"><i class="material-icons  pull-left">gavel</i><span class="pull-left pl-5">Assets from Auction</span></button>
+                                <button class=" btn btn-simple  p-0 m-0  text-nowrap"><i class="material-icons pull-left pr-3">gavel</i><span class="pull-left">Assets from Auction</span></button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class=" container pl-0">
-                        <div class="d-flex flex-row  p-0 mb-5">
-                            <div class="col-3 d-flex flex-row align-items-start pl-0  mr-5">
+                        <div class="dash-icons-section col-md-12 col-sm-12 p-0 mb-5">
+                            <div class=" col-md-3 col-sm-6 col-10  d-flex flex-row dash-icons-section-div p-0">
                                 <span class="h1Heading"><i class="fa fa-calendar-check-o dashIcon" aria-hidden="true"></i></span>
                                 <div class="d-flex flex-column justify-content-end pb-2 pl-2">
                                     <span class="dashIconGrey extraSmall ">new properties this week</span>
                                     <span class="h2Heading  dashIcon m-0">250</span>
                                 </div>
                             </div>
-                            <div class="col-3 d-flex flex-row align-items-start  mr-5">
+                            <div class=" col-md-3 col-sm-6 col-10  d-flex flex-row dash-icons-section-div  p-0">
                                 <span class="h1Heading"><i class="fa fa-money dashIcon " aria-hidden="true"></i></span>
-                                <div class="d-flex flex-column justify-content-end pb-2  pl-2  mr-5">
-                                    <span class="dashIconGrey extraSmall">find the best offers</span>
+                                <div class="d-flex flex-column justify-content-end pb-2  pl-2 ">
+                                    <span class="dashIconGrey extraSmall">find the best offers around</span>
                                     <span class="h2Heading  dashIcon m-0">&#36;&#36;&#36;</span>
                                 </div>
                             </div>
-                            <div class="col-3 d-flex flex-row align-items-start mr-5">
+                            <div class="col-md-3 col-sm-6 col-10   d-flex flex-row dash-icons-section-div p-0">
                                 <span class="h1Heading"><i class="fa fa-line-chart dashIcon" aria-hidden="true"></i></span>
                                 <div class="d-flex flex-column justify-content-end pb-2 pl-2">
                                     <span class="dashIconGrey extraSmall">change from last week</span>
                                     <span class="h2Heading  dashIcon m-0">7&#37;</span>
                                 </div>
                             </div>
-                            <div class="col-3 d-flex flex-row align-items-start">
+                            <div class=" col-md-3 col-sm-6 col-10  d-flex flex-row dash-icons-section-div p-0">
                                 <span class="h1Heading"><i class="fa fa-area-chart dashIcon" aria-hidden="true"></i></span>
                                 <div class="d-flex flex-column justify-content-end pb-2  pl-2">
                                     <span class="dashIconGrey extraSmall ">assets value per month</span>
@@ -49,11 +48,10 @@ layout: default
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 p-0 mb-5">
-                        <div class=" d-flex inline-flex">
-                            <form action="#" id="AuctionForm" method="get" class="col-12 panel pt-2 pb-4">
-                                <div class=" p-0 m-auto ">
+                    <div class="col-md-12 col-sm-12 p-0 mb-5">
+                        <div class="">
+                            <form action="#" id="AuctionForm" method="get" class="auction-form-section panel ">
+                                <div class="col-lg-2  col-md-6 col-sm-8 ">
                                     <div id="div_id_asset_type" class="form-group is-empty label-floating">
                                         <label for="id_asset_type " class="form-control-label control-label nice-blue ">
                                         Major type
@@ -70,7 +68,7 @@ layout: default
                                         <span class="material-input"></span>
                                     <span class="material-input"></span></div>
                                 </div>
-                                <div class="pl-0 m-auto">
+                                <div class=" col-lg-2 offset-lg-1 col-md-6  col-sm-8 ">
                                     <div id="div_id_asset_type_minor" class="form-group is-empty label-floating">
                                         <label for="id_asset_type_minor" class="form-control-label control-label nice-blue">
                                         Minor type
@@ -96,31 +94,35 @@ layout: default
                                         <span class="material-input"></span>
                                     <span class="material-input"></span></div>
                                 </div>
-                                <div class="">
+                                <div class="col-lg-2 offset-lg-1 col-md-6  col-sm-8 ">
                                     <div id="div_id_city" class="form-group is-empty">
                                         <label for="id_city" class="form-control-label control-label"></label>
                                         <div class="selectpicker">
                                             <select class="modelselect2 form-control select2-hidden-accessible" data-autocomplete-light-function="select2" data-autocomplete-light-url="/cities-autocomplete/" id="id_city" name="city" tabindex="-1" aria-hidden="true">
                                                 <option value="" selected="selected">------</option>
-                                            </select><span class="select2 select2-container select2-container--default select2-container--above select2-container--focus" dir="ltr" style="width: 1px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-labelledby="select2-id_city-container"><span class="select2-selection__rendered" id="select2-id_city-container"><span class="select2-selection__placeholder"></span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                            </select>
+                                            <span class="select2 select2-container select2-container--default select2-container--below select2-container--focus" dir="ltr" style="width: 1px;">
+                                                <span class="selection"></span>
+                                                <span class="dropdown-wrapper" aria-hidden="true"></span>
+                                            </span>
                                             <span class="selection">
-                                            <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-id_city-container">
-                                            <span class="select2-selection__rendered" id="select2-id_city-container">
-                                            <span class="select2-selection__placeholder"></span>
-                                            </span>
+                                                <span class="select2-selection__rendered" id="select2-id_city-container">
+                                                    <span class="select2-selection__placeholder"></span>
+                                                </span>
                                             <span class="select2-selection__arrow" role="presentation">
-                                            <b role="presentation"></b>
-                                            </span>
+                                                <b role="presentation"></b>
                                             </span>
                                             </span>
                                             <span class="dropdown-wrapper" aria-hidden="true"></span>
                                         </div>
                                         <span class="material-input"></span>
-                                    <span class="material-input"></span></div>
+                                        <span class="material-input"></span>
+                                        <span class="material-input"></span>
+                                    </div>
                                 </div>
-                                <div class=" pl-0  m-auto">
+                                <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-8 formButton">
                                     <label class="control-label" for=""></label>
-                                    <button type="submit" class="btn btn-info formButton">filter
+                                    <button type="submit" class="btn btn-info btn-block ">filter
                                     <span class="form-group-addon">
                                     <i class="material-icons">search</i>
                                     </span>
@@ -129,8 +131,8 @@ layout: default
                             </form>
                         </div>
                     </div>
-                    <div class="col-10 pl-5 mb-5 class-display">
-                        <table id="dashBoardTable " class="maintable table table-hover table-sm text-nowrap dashBoardTable">
+                    <div class="col-10 mb-5 class-display">
+                        <table id="dashBoardTable " class="maintable table table-hover table-sm text-nowrap dashBoardTable ">
                             <thead class="dashBoardheadings">
                                 <tr class="h3Heading">
                                     <th class="pl-0 border-0"  colspan="1"><span class=""> yield rate</span></th>
@@ -264,6 +266,8 @@ layout: default
                                         <li><a href="?page=2&amp;">2</a></li>
                                         <li class="active"><a href="?page=3&amp;">3</a></li>
                                         <li><a href="?page=4&amp;">4</a></li>
+                                        <li><a href="?page=4&amp;">5</a></li>
+                                        <li><a href="?page=4&amp;">6</a></li>
                                         <li><span class="ellipsis">...</span></li>
                                         <li><a href="?page=10653&amp;">10653</a></li>
                                         <li><a href="?page=2&amp;">Next &gt;</a></li>
@@ -273,7 +277,7 @@ layout: default
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 p-0 m-0 bg-faded ">
+                <div class="col-lg-3 col-lg-offset-1 col-md-3 offset-md-1 col-sm-12 p-0  ">
                     <div class="d-flex flex-column p-0 m-0">
                         <div class=" d-flex flex-column text-white pl-5 pr-5 pt-4  bgTopSidebar">
                             <div class="flex-row d-flex h1andhalfHeading">Good Afternoon </div>
@@ -311,18 +315,6 @@ layout: default
                             </ul>
                             <h5 class="bold ">Live Updates</h5>
                             <ul class=" p-0 m-0 updatesList">
-                                <li class=" ">
-                                    <span class=""><i class="material-icons md-18 pr-2">rss_feed</i>News</span>
-                                    <div class="mb-2">
-                                        <a class="small" href="#">Property tax increased - capital.gr </a>
-                                    </div>
-                                </li>
-                                <li class=" p-0 m-0 ">
-                                    <span class=""><i class="material-icons md-18 pr-2">email</i>Messages</span>
-                                    <div class="mb-2">
-                                        <a class="small " href="#">You have 1 new message</a>
-                                    </div>
-                                </li>
                                 <li class=" ">
                                     <span class=""><i class="material-icons md-18 pr-2">rss_feed</i>News</span>
                                     <div class="mb-2">
