@@ -7,7 +7,7 @@ border:1px solid red;
     SignUp page
 *************/
 .wrapper {
-    height: 100vh; 
+    height: 100vh;
     min-height: 100%;
     margin: 0 auto;
     padding: 0 auto;
@@ -55,8 +55,22 @@ border:1px solid red;
     width: 100%;
 }
 
+@media only screen and (min-width: 992px){
+    .signup-bg-container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 991px){
+    .wrapper {
+        overflow-y: auto;
+     }
+}
 @media (max-width: 767px){
     .class-display div{
         display: none!important;
     }
+
+
 }
