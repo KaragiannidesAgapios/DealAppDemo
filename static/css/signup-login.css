@@ -6,6 +6,12 @@ border:1px solid red;
 /*************
     SignUp page
 *************/
+.wrapper {
+    height: 100vh; 
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+ }
 
 .signup-bg{
     background: url(../img/city.jpg ) no-repeat center center fixed;
