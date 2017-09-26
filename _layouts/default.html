@@ -51,15 +51,21 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <script type="text/javascript">
             function setWrapperHeight() {
-                var wrapperHeight = $(window).innerHeight() - $('.navbar').innerHeight();
-                $('.wrapper').innerHeight(wrapperHeight)
+                var wrapperHeight = $(window).outerHeight() - $('.navbar').outerHeight();
+                $('.wrapper').outerHeight(wrapperHeight)
                };
                $(document).ready(function (){
                    setWrapperHeight();
                });
                $(window).resize(function (){
                    setWrapperHeight();
-               })
+               });
+            // $(document).ready(function (){
+            //     setWrapperHeight() {
+            //          var wrapperHeight = $(window).height() - $('.navbar').height();
+            //         $('.wrapper').height(wrapperHeight)
+            //     })
+            // });
         </script>
 
 
@@ -68,8 +74,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
         <script type="text/javascript" src="static/autocomplete_light/jquery.init.js"></script>
-        <!-- <script type="text/javascript" src="static/autocomplete_light/autocomplete.init.js"></script> -->
-        <!-- <script type="text/javascript" src="static/autocomplete_light/vendor/select2/dist/js/select2.full.js"></script> -->
+        <script type="text/javascript" src="static/autocomplete_light/autocomplete.init.js"></script>
+        <script type="text/javascript" src="static/autocomplete_light/vendor/select2/dist/js/select2.full.js"></script>
         <script type="text/javascript" src="static/autocomplete_light/select2.js"></script>
         <script src="static/js/single-asset-graph.js"></script>
         <script src="static/js/carousel.js"></script>
